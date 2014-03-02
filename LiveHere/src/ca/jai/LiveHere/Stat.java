@@ -101,12 +101,10 @@ public class Stat extends Activity {
 			}
 			ArrayList <Integer> daVault = bigData.getRent("2010", "One bedroom units");
 			String range = "";
-			if(!daVault.get(0).equals(null) || !daVault.get(1).equals(null)) {
-				if(compare(daVault.get(0), daVault.get(1)) > 0) {
-					range = range + "$" + daVault.get(1) + " - $" + daVault.get(0);
-				} else {
-					range = range + "$" + daVault.get(0) + " - $" + daVault.get(1);
-				}
+			if(compare(daVault.get(0), daVault.get(1)) > 0) {
+				range = range + "$" + daVault.get(1) + " - $" + daVault.get(0);
+			} else {
+				range = range + "$" + daVault.get(0) + " - $" + daVault.get(1);
 			}
 			
 			DataSetMatrix bigData2 = null;
@@ -118,12 +116,10 @@ public class Stat extends Activity {
 			}
 			ArrayList <Integer> daVault2 = bigData2.getRent("2010", "Two bedroom units");
 			String range2 = "";
-			if(!daVault2.get(0).equals(null) || !daVault2.get(1).equals(null)) {
-				if(compare(daVault2.get(0), daVault2.get(1)) > 0) {
-					range2 = range2 + "$" + daVault2.get(1) + " - $" + daVault2.get(0);
-				} else {
-					range2 = range2 + "$" + daVault2.get(0) + " - $" + daVault2.get(1);
-				}
+			if(compare(daVault2.get(0), daVault2.get(1)) > 0) {
+				range2 = range2 + "$" + daVault2.get(1) + " - $" + daVault2.get(0);
+			} else {
+				range2 = range2 + "$" + daVault2.get(0) + " - $" + daVault2.get(1);
 			}
 			
 			publishProgress(range, range2);
