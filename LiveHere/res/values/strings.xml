@@ -4,8 +4,8 @@
     <string name="app_name">Live Here</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="gps_text">Use GPS</string>
-    <string name="choose_text">Choose</string>
+    <string name="gps_text">Use Current\nLocation</string>
+    <string name="choose_text">Choose a\nLocation</string>
     <string name="title_activity_stat">Stat</string>
     <string name="title_activity_choose_location">ChooseLocation</string>
 
@@ -41,5 +41,6 @@
     <string name="city_text">"City: "</string>
     <string name="year"/>
     <string name="bachelor_text">Bachelor</string>
+    <string name="toDo">Go fuck yourself</string>
 
 </resources>

@@ -25,38 +25,51 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int icon_copy=0x7f020001;
-        public static final int splash1=0x7f020002;
-        public static final int splash2=0x7f020003;
-        public static final int splash3=0x7f020004;
+        public static final int box=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
+        public static final int icon_copy=0x7f020002;
+        public static final int splash1=0x7f020003;
+        public static final int splash2=0x7f020004;
+        public static final int splash3=0x7f020005;
     }
     public static final class id {
-        public static final int action_settings=0x7f090012;
-        public static final int chooseButton=0x7f090006;
-        public static final int chooseCityButton=0x7f090000;
-        public static final int citySpinner=0x7f090003;
-        public static final int cityText=0x7f090008;
-        public static final int getStatButton=0x7f090002;
-        public static final int gpsButton=0x7f090005;
-        public static final int horizontalScrollView1=0x7f090009;
+        public static final int action_settings=0x7f09001f;
+        public static final int chooseButton=0x7f090004;
+        public static final int citySpinner=0x7f090002;
+        public static final int cityText=0x7f090007;
+        public static final int getStatButton=0x7f090000;
+        public static final int gpsButton=0x7f090003;
+        public static final int horizontalScrollView1=0x7f090008;
+        public static final int linearLayout1=0x7f090005;
         public static final int provinceSpinner=0x7f090001;
-        public static final int provinceText=0x7f090007;
-        public static final int rentTableLayout=0x7f09000a;
-        public static final int size=0x7f09000b;
-        public static final int titleTextViewId=0x7f090004;
-        public static final int year1=0x7f09000c;
-        public static final int year1OneBed=0x7f090010;
-        public static final int year1TwoBed=0x7f090011;
-        public static final int year2=0x7f09000d;
-        public static final int year3=0x7f09000e;
-        public static final int year4=0x7f09000f;
+        public static final int provinceText=0x7f090006;
+        public static final int rentTableLayout=0x7f090009;
+        public static final int size=0x7f09000a;
+        public static final int year1=0x7f09000b;
+        public static final int year1Bachelor=0x7f09001b;
+        public static final int year1OneBed=0x7f09000f;
+        public static final int year1ThreeBed=0x7f090017;
+        public static final int year1TwoBed=0x7f090013;
+        public static final int year2=0x7f09000c;
+        public static final int year2Bachelor=0x7f09001c;
+        public static final int year2OneBed=0x7f090010;
+        public static final int year2ThreeBed=0x7f090018;
+        public static final int year2TwoBed=0x7f090014;
+        public static final int year3=0x7f09000d;
+        public static final int year3Bachelor=0x7f09001d;
+        public static final int year3OneBed=0x7f090011;
+        public static final int year3ThreeBed=0x7f090019;
+        public static final int year3TwoBed=0x7f090015;
+        public static final int year4=0x7f09000e;
+        public static final int year4Bachelor=0x7f09001e;
+        public static final int year4OneBed=0x7f090012;
+        public static final int year4ThreeBed=0x7f09001a;
+        public static final int year4TwoBed=0x7f090016;
     }
     public static final class layout {
         public static final int activity_choose_location=0x7f030000;
-        public static final int activity_city=0x7f030001;
-        public static final int activity_main=0x7f030002;
-        public static final int activity_stat=0x7f030003;
+        public static final int activity_main=0x7f030001;
+        public static final int activity_stat=0x7f030002;
     }
     public static final class menu {
         public static final int choose_location=0x7f080000;
@@ -81,6 +94,7 @@ public final class R {
         public static final int title_activity_choose_location=0x7f050006;
         public static final int title_activity_city=0x7f050011;
         public static final int title_activity_stat=0x7f050005;
+        public static final int toDo=0x7f050016;
         public static final int two_bed=0x7f05000f;
         public static final int year=0x7f050014;
         public static final int year_2010=0x7f05000a;
